@@ -1,0 +1,395 @@
+
+
+ul,ol {
+   list-style-type: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* /////////////////////////////////  main css start  ///////////////////////////////// */
+
+#banner {
+    background: url(../img/ANDREW_HUANG_LANDING.jpg)no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+    height: 100vh;
+}
+#banner h2 {
+    font-family: 'Montserrat', sans-serif;
+    Font-size: 27px;
+
+Font-weight: 500;
+
+Line-height: 32.4px;
+
+color: rgb(255, 255, 255);
+text-align: center;
+text-transform: uppercase;
+cursor: pointer;
+
+}
+.nav-bar {
+    position: sticky;
+    top: 0;
+}
+.nav-bar ul {
+    text-align: center;
+   
+}
+.nav-bar ul li {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+    Font-size: 18px;
+
+    Font-weight: 400;
+
+    Line-height: 18px;
+
+    color: #ff0;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-right: 15px;
+    transition: .4s;
+    cursor: pointer;
+   
+}
+
+
+
+.nav-bar ul li:hover {
+    color: #fff;
+}
+
+#banner h1 {
+    margin-top: 180px;
+    font-family: 'Montserrat', sans-serif;
+    Font-size: 42px;
+    Font-weight: 400;
+    Line-height: 59.4px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-left: 210px;
+
+}
+.banner-icons {
+    margin-left: 325px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.banner-icons i {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+    Font-size: 17px;
+
+Font-weight: 400;
+
+Line-height: 23.8px;
+transition: .4s;
+cursor: pointer;
+}
+
+.banner-icons i:hover {
+    background: #fff;
+    color: #000;
+
+
+}
+
+/* //////////////////// events ////////////////////// */
+
+#events {
+    padding: 130px 0;
+    background: url(../img/LIVE+03.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#events h1{
+    font-family: 'Montserrat', sans-serif;
+
+Font-size: 54px;
+
+Font-weight: 400;
+
+Line-height: 59.4px;
+
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+text-align: center;
+}
+
+#events p {
+    font-family: 'Montserrat', sans-serif;
+
+Font-size: 15px;
+
+Font-weight: 700;
+
+Line-height: 21px;
+
+color: rgba(255, 255, 255, 0.9);
+text-align: center;
+margin-top: 100px;
+}
+#events h6 {
+    font-family: 'Montserrat', sans-serif;
+
+Font-size: 15px;
+
+Font-weight: 700;
+
+Line-height: 21px;
+
+color: rgb(255, 255, 0);
+text-transform: uppercase;
+text-align: center;
+cursor: pointer;
+}
+
+
+/* ///////////////////////// guiter ////////////////////////////// */
+
+
+#guiter {
+    background: url(../img/ANDREW+HUANG+ABOUTpink.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+#guiter p {
+    margin-left: 50%;
+    font-family: 'Montserrat', sans-serif;
+
+Font-size: 15px;
+
+Font-weight: 400;
+
+Line-height: 26px;
+
+color: rgba(255, 255, 255, 0.9);
+}
+
+.rap {
+    color: #ff0;
+    cursor: pointer;
+}
+.uni {
+    color: #ff0;
+    cursor: pointer;
+}
+.ballons  {
+    color: #ff0;
+    cursor: pointer;
+}
+.yt  {
+    color: #ff0;
+    cursor: pointer;
+}
+.soc  {
+    color: #ff0;
+    cursor: pointer;
+}
+
+/* ////////////////////////// videos //////////////////// */
+
+#video {
+    background: url(../img/MOSAIC04.jpg) no-repeat center;
+    background-size: cover;
+    padding: 130px 0;
+}
+
+#video h1 {
+    font-family: 'Montserrat', sans-serif;
+
+    Font-size: 96px;
+    
+    Font-weight: 400;
+    
+    Line-height: 96px;
+    
+    color:  rgb(220, 56, 108);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.my-video-links {
+    width: 490px;
+    height: 275px;
+}
+.row {
+    margin-top: 50px;
+}
+
+#video p {
+    font-family: 'Montserrat', sans-serif;
+
+    Font-size: 15px;
+    
+    Font-weight: 400;
+    
+    Line-height: 21px;
+    
+    color:   rgb(220, 56, 108);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.clk {
+    Font-weight: 700;
+    color: rgb(255, 255, 0);
+    cursor: pointer;
+}
+
+/* <!-- /////////////// subscribe //////////////////////// --> */
+
+#subs {
+    padding: 40px 0;
+    background: #DC386C;
+}
+
+#subs h1{
+    font-family: 'Montserrat', sans-serif;
+
+    Font-size: 30px;
+    
+    Font-weight: 400;
+    
+    Line-height: 36px;
+    
+    color:   rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.inputs {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+input {
+    width: 245px;
+    height: 55px;
+    padding-left: 20px;
+    margin-left: 10px;
+    border: 0;
+}
+
+.inputs a {
+    padding: 16px 35px;
+    background: #ff0;
+    font-family: 'Montserrat', sans-serif;
+
+    Font-size: 15px;
+    
+    Font-weight: 400;
+    
+    Line-height: normal;
+    
+    color:   rgb(193, 11, 69);
+    border-radius: 4px;
+    margin-left: 10px;
+    transition: .4s;
+}
+
+.inputs a:hover {
+    background: #F8D715;
+}
+
+/* //////////////////////////// footer /////////////////////////// */
+#footer {
+    padding: 50px 0;
+    background: #C33763;
+}
+#footer h1 {
+    font-family: 'Montserrat', sans-serif;
+
+    Font-size: 15.3px;
+    
+    Font-weight: 400;
+    
+    Line-height: 23.8px;
+    
+    color:   rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+#footer p {
+    font-family: 'Montserrat', sans-serif;
+    Font-size: 15.3px;
+    Font-weight: 400;
+    Line-height: 23.8px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    width: 165px;
+    margin-left: 476px;
+}
+
+#footer p::before {
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    width: 100%;
+    height: 2px;
+    content: '';
+}
+#footer p:hover:before {
+    background: #fff;
+}
+
+.banner-icons2 {
+    margin-left: 483px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 155px;
+}
+
+.banner-icons2 i {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0px;
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 23.8px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.banner-icons2 i:hover {
+    background: #fff;
+    color: #000;
+
+
+}
